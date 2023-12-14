@@ -10,7 +10,7 @@ require (
 	github.com/onosproject/onos-api/go v0.10.31
 	github.com/onosproject/onos-lib-go v0.10.24
 	github.com/onosproject/onos-ric-sdk-go v0.8.12
-	github.com/openconfig/gnmi v0.9.1
+	github.com/openconfig/gnmi v0.10.0
 	github.com/prometheus/common v0.26.0
 	github.com/spf13/cobra v1.7.0
 	github.com/stretchr/testify v1.8.2
