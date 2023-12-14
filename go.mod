@@ -12,7 +12,7 @@ require (
 	github.com/onosproject/onos-ric-sdk-go v0.8.12
 	github.com/openconfig/gnmi v0.9.1
 	github.com/prometheus/common v0.26.0
-	github.com/spf13/cobra v1.7.0
+	github.com/spf13/cobra v1.8.0
 	github.com/stretchr/testify v1.8.2
 	golang.org/x/crypto v0.1.0
 	google.golang.org/grpc v1.54.0
@@ -24,7 +24,7 @@ require (
 	github.com/alecthomas/units v0.0.0-20190924025748-f65c72e2690d // indirect
 	github.com/atomix/atomix/api v0.8.0 // indirect
 	github.com/cenkalti/backoff/v4 v4.1.1 // indirect
-	github.com/cpuguy83/go-md2man/v2 v2.0.2 // indirect
+	github.com/cpuguy83/go-md2man/v2 v2.0.3 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/eapache/go-resiliency v1.2.0 // indirect
 	github.com/eapache/go-xerial-snappy v0.0.0-20180814174437-776d5712da21 // indirect
