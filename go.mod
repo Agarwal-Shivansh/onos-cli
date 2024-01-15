@@ -11,17 +11,14 @@ require (
 	github.com/onosproject/onos-lib-go v0.10.24
 	github.com/onosproject/onos-ric-sdk-go v0.8.12
 	github.com/openconfig/gnmi v0.9.1
-	github.com/prometheus/common v0.26.0
 	github.com/spf13/cobra v1.7.0
 	github.com/stretchr/testify v1.8.2
-	golang.org/x/crypto v0.1.0
+	golang.org/x/crypto v0.18.0
 	google.golang.org/grpc v1.54.0
 )
 
 require (
 	github.com/Shopify/sarama v1.31.1 // indirect
-	github.com/alecthomas/template v0.0.0-20190718012654-fb15b899a751 // indirect
-	github.com/alecthomas/units v0.0.0-20190924025748-f65c72e2690d // indirect
 	github.com/atomix/atomix/api v0.8.0 // indirect
 	github.com/cenkalti/backoff/v4 v4.1.1 // indirect
 	github.com/cpuguy83/go-md2man/v2 v2.0.2 // indirect
@@ -62,8 +59,8 @@ require (
 	github.com/pquerna/cachecontrol v0.0.0-20180517163645-1555304b9b35 // indirect
 	github.com/protocolbuffers/txtpbfmt v0.0.0-20220608084003-fc78c767cd6a // indirect
 	github.com/rcrowley/go-metrics v0.0.0-20201227073835-cf1acfcdf475 // indirect
+	github.com/rogpeppe/go-internal v1.10.0 // indirect
 	github.com/russross/blackfriday/v2 v2.1.0 // indirect
-	github.com/sirupsen/logrus v1.8.1 // indirect
 	github.com/spf13/afero v1.8.2 // indirect
 	github.com/spf13/cast v1.4.1 // indirect
 	github.com/spf13/jwalterweatherman v1.1.0 // indirect
@@ -73,15 +70,15 @@ require (
 	go.uber.org/atomic v1.7.0 // indirect
 	go.uber.org/multierr v1.6.0 // indirect
 	go.uber.org/zap v1.21.0 // indirect
-	golang.org/x/net v0.8.0 // indirect
-	golang.org/x/oauth2 v0.4.0 // indirect
-	golang.org/x/sys v0.6.0 // indirect
-	golang.org/x/term v0.6.0 // indirect
-	golang.org/x/text v0.8.0 // indirect
+	golang.org/x/net v0.20.0 // indirect
+	golang.org/x/oauth2 v0.16.0 // indirect
+	golang.org/x/sys v0.16.0 // indirect
+	golang.org/x/term v0.16.0 // indirect
+	golang.org/x/text v0.14.0 // indirect
 	google.golang.org/appengine v1.6.7 // indirect
 	google.golang.org/genproto v0.0.0-20230110181048-76db0878b65f // indirect
-	google.golang.org/protobuf v1.28.1 // indirect
-	gopkg.in/alecthomas/kingpin.v2 v2.2.6 // indirect
+	google.golang.org/protobuf v1.32.0 // indirect
+	gopkg.in/check.v1 v1.0.0-20201130134442-10cb98267c6c // indirect
 	gopkg.in/ini.v1 v1.66.4 // indirect
 	gopkg.in/square/go-jose.v1 v1.1.2 // indirect
 	gopkg.in/square/go-jose.v2 v2.6.0 // indirect
