@@ -54,7 +54,9 @@ jobs:
         with:
           go-version-file: 'go.mod'
       - name: Build Docker image
-        run: docker build . -f build/onos/Dockerfile -t onosproject/onos-cli:latest
+        run: |
+          go mod tidy 
+          docker build . -f build/onos/Dockerfile -t onosproject/onos-cli:latest
           
   license-check:
     runs-on: ubuntu-latest
