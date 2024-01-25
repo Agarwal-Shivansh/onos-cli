@@ -54,11 +54,7 @@ jobs:
         with:
           go-version-file: 'go.mod'
       - name: Build Docker image
-        run: |
-          go mod vendor
-          docker build . -f build/onos/Dockerfile \
-                  -t onosproject/onos-cli:latest
-          rm -rf vendor
+        run: docker build . -f build/onos/Dockerfile -t onosproject/onos-cli:latest
           
   license-check:
     runs-on: ubuntu-latest
